@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新美學窗簾</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .info {
+      text-align: center;
+      padding: 15px;
+      background: #ecf0f1;
+    }
+    .info p {
+      margin: 5px 0;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px;
+      color: #2c3e50;
+    }
+    .card p {
+      margin: 10px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>新美學窗簾</h1>
+    <p>專業窗簾・拉門・地板・壁紙・調光簾・捲簾</p>
+  </header>
+
+  <section class="info">
+    <p>📍 地址：花蓮縣吉安鄉中山路三段19號</p>
+    <p>📞 電話：0939862180</p>
+    <p> 免費丈量、詢價、免安裝費</p>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <img src="images/curtain.jpg.jpg" alt="布簾">
+      <h3>布簾</h3>
+      <p>質感布料搭配多樣花色，打造舒適與隱私兼具的居家氛圍。</p>
+    </div>
+
+    <div class="card">
+      <img src="images/lala.jpg" alt="拉門">
+      <h3>拉門</h3>
+      <p>簡約時尚的拉門設計，節省空間並提升生活便利性。</p>
+    </div>
+
+    <div class="card">
+      <img src="images/地板.jpg" alt="地板">
+      <h3>地板</h3>
+      <p>多樣木質與耐磨地板，為您營造溫馨耐用的居家環境。</p>
+    </div>
+
+    <div class="card">
+      <img src="images/壁紙.jpg" alt="壁紙">
+      <h3>壁紙</h3>
+      <p>多款風格壁紙，讓牆面展現獨特個性，提升整體美感。</p>
+    </div>
+
+    <div class="card">
+      <img src="images/te.jpg" alt="調光簾">
+      <h3>調光簾</h3>
+      <p>靈活控制光線與隱私，營造柔和舒適的光影效果。</p>
+    </div>
+
+    <div class="card">
+      <img src="images/la.jpg" alt="捲簾">
+      <h3>捲簾</h3>
+      <p>簡約現代的捲簾，適合各種空間風格，實用又美觀。</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 新美學窗簾 All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
